@@ -1,0 +1,164 @@
+body{
+    
+}
+.bg-image {
+    background: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ABOUT US SECTION */
+.bg-color {
+    background-color: aliceblue;
+}
+.about-left img{
+    width: 100%;
+}
+.about-right{
+    padding-top: 80%;
+    padding-bottom: 80%;
+    
+    }
+    .about-right h2{
+        front-si
+}
+ @media screen and ( max-width:768px) {
+    .about-right table tr td,
+    .about-right table tr th{
+     padding: 10px 0px;
+     front-size: 13px;
+    }
+ 
+ }
+ @media screen and (max-width:500px){
+    .about-right table tr td,
+    .about-right table tr th{
+     padding: 10px;
+     front-size: 16px;
+ }}
+ /* logo ,menu and about details section */
+ .navbar{
+    padding-top: 35px;
+ }
+ .navbar-brand{
+    front-size:30px;
+    color: white;
+ }
+ .offcanas-header{
+    justify-content: end;
+ }
+ .nav-link{
+    color: black;
+ }
+ .info{
+    padding-top: 15px;
+ }
+ .info p{
+    margin: 0px;
+ }
+ .navbar .info a {
+    front-size: 23px;
+    color: black;
+ }
+ .pb-100{
+    padding-bottom: 100px;
+ }
+ /* about us section */
+ .about-detail h5 {
+    front-size: 40px;
+    margin-bottom: 15px;
+    color: white;
+    front-weight: 400;
+ }
+.about-detail h1{
+    front-size: 58px;
+    margin-bottom: 10px;
+    color: white;
+    front-weight: bolder;
+}
+.about-detail p{
+    front-size: 22px;
+    color:white;
+    line-height: 28px;
+
+}
+.about-detail button{
+    border: none;
+    padding: 15px 40px;
+    margin-top: 15px;
+    color: white;
+    background: #ef6735;
+}
+.about-detail button i {
+    font-size: 15px;
+    margin-left: 15px;
+}
+.typing{
+position: relative;
+width: fit-content;
+padding-right: 20px;
+}
+.typing::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    background: #212121;
+    animation: typing 6s steps(22) infinite, caret is infinite;
+}
+@-webkit-keyframes typing{
+    to {
+        width: 0;
+    }
+}
+@keyframes typing{
+    to{
+        width: 0;
+    }
+}
+@-webkit-keyframes caret{
+    50%{
+        color: transparent;
+    }
+}
+@media screen and( max-wdth:768px) {
+    .about-detail h5{
+        front-size:25px;
+    }
+}
+.about-detail h1 {
+    front-size:38px !important;
+
+}
+@media screen and (max-width:500px) {
+    .about-detail{
+        padding-top: 15%;
+        padding-bottom: 60px;
+    }
+
+    .about-detail h5 {
+        front-size: 20px;
+    }
+    .about-detail h1 {
+        frot-size: 35px !important;
+        margin-bottom: 5px !important;
+    }
+    .banner-img {
+        position: relative;
+        width: 100%;
+        height:100vh;
+    }
+    .banner-img img {
+        position: absolute;
+        bottom: 0px;
+        width: 90%;
+    }
+    @media screen and (max-wdth:768px) {
+        .banner-img{
+            height: auto;
+        }
+        .banner-img img {
+            position:relative
+        }
+        
+    }
+    
+}
